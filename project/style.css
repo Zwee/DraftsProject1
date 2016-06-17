@@ -33,17 +33,23 @@ border-color: #EDDA74; /* 'wild rice yellow' */
   }
 
   .title {
-    background: linear-gradient(#583759, #EDDA74, #000000);
-    text-align: center;
+    background: linear-gradient(#FFFFFF, #C0C0C0, #FFFFFF);
     color: #583759; /* 'hot purple' */
     font-family: Arial;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px 10px;
+    max-width: 75%;
+    margin: 0 auto;
   }
 
   .subtitle {
-    background: linear-gradient(#583759, #EDDA74, #000000);
+    background: linear-gradient(#FFFFFF, #C0C0C0, #FFFFFF);
     text-align: center;
     color: #583759;
     font-family: Arial;
+    border-radius: 20px;
+    margin: 0px 20px;
   }
 
   .mainpage {
@@ -55,15 +61,17 @@ border-color: #EDDA74; /* 'wild rice yellow' */
   }
 
   .about {
+    border-radius: 20px;
     font-family: Arial;
-    color: #EDDA74;
-    border: 5px solid #A999AA;
-    padding-right: 5px;
+    color: #aa66cc;
+    border: 5px solid #C0C0C0;
+    padding: 10px;
     float: left;
   }
 
   nav {
     font-weight: bolder;
+    text-align: center;
     width: 705px;
   }
 
@@ -71,17 +79,18 @@ border-color: #EDDA74; /* 'wild rice yellow' */
   color: #6600CC;
   }
   a:visited {
-  color: cyan
+  color: #C0C0C0;
   }
   a:hover {
   color: #FFFF00;
   }
 
   .glossary {
+    border-radius: 20px;
     font-family: Arial;
-    color: #EDDA74;
-    border: 5px solid #A999AA;
-    padding-left: 5px;
+    color: #aa66cc;
+    border: 5px solid #C0C0C0;
+    padding: 10px;
     float: right;
   }
 
