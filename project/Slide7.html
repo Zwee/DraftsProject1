@@ -1,0 +1,167 @@
+<!--<html>
+<body bgcolor="#BCC6CC">
+<style>
+  * {
+    margin: 8px;
+    border : red solid 2px;
+    background-color: rgba(0,0,0,0.15);
+  }
+  </style>
+  <p>
+    This is Slide 7 Cascading Style Sheets: Intro to CSS - Vocabulary
+  </p>
+
+  <p>
+    Lesson 3: CSS - Cascading Style Sheets
+    First Rule:
+    Don't repeat yourself.
+    When going through your code, ask "What do these things have in common, and can I style just that." and "How can I remove repetition?"
+
+    Vocabulary:
+
+    Style:
+    Can refer to multiple things-
+    -The HTML element, e.g.: &#60;style&#62;div &#123;color:blue&#125;&#60;&#47;style&#62;
+    -The HTML attribute, e.g.: &#60;div style="color : blue"&#62;text&#60;/div&#62;
+    -The general look of a site, e.g.:  "I like the style of that site, it's fun but easy on the eyes."
+    -A verb, e.g.: "The structure is done, but I jsut need to style it."
+
+    Placeholder:
+    Can be thought of like 'find and replace' in Word. You've got a word that's holding a spot that soon another word(s) is/are going to occupy in its place. Like "resident" in a mail merge letter that eventually gets filled in with the name of the resident/recipient for that specific letter.
+    E.g.: Placeholder "Body-part" -> Will later be replaced by Eye, or Hair
+
+    Rule:
+    A line of CSS code that describes a value that a certain attribute should have. E.g.: Rules: Do not brush wet, do not dye, dandruff shampoo only
+
+    Property:
+    The characteristic that you want to change.
+
+    Value:
+    The quality or quantity you want to assign to the attribute.
+    E.g.: Values: blonde, dry, processed, virgin
+
+    Class:
+    Refers to a group of elements that can be styled together.
+
+    ID:
+    IDs are unique identifiers that identify a HTML element.
+
+    Comments:
+    Comments are lines of text that the computer ignores. They are used to leave notes to yourself or to others who might check out your code in the future.
+    -In HTML, code comments are prefixed with &#60;!-- and end with --&#62;
+    Everything in between is ignored by the computer.
+    -In CSS, code comments begin with /* and end with */. Again, everything in between those two markers is ignored.
+
+  Rules:
+    In CSS, the most specific rule is applied to every element.
+    Analogy: US Legal System v. 4 yr old kid.
+    Federal (most broad) -> State -> Municipal -> Your Family (most specific)
+    (least weight)       ->       ->           -> (most weight)
+    The house rules are going to be the ones that the kid lives by regularly, with very little impact felt from any Federal rules. (Terrible analogy, sue me.)
+    Basically, National rules would have the weight of House rules, and vice versa, if the US was controlled with CSS.
+
+  This hierarchy is what is meant with the word 'Cascading'.
+
+  You go down as far as you need to do into the rules until you find the cone that best describes the elements, then that rule is applied.
+
+  There is no need to attempt the fool's errand of trying to memorise all possible attributes and values. (Though luck are those who can!!)
+  Instead, one should get comfortable looking up CSS documentation.
+
+  As hubby is fond of saying:
+  "You don't need to know everything. You just need to know how to look everything up."
+
+    It also matters where you define the rules and the order in which they are applied.
+
+    Class:
+    Note: in &#60;style&#62; element we refer to a HTML element's class name by writing .class-name
+    Also note how we can apply rules to all divs or just certain divs by using the appropriate selector. E.g.:
+    .center {
+    text-align: center;
+    color: red;
+    }
+    means all HTML elements with class 'center' will be red and center aligned.
+
+</body>
+</html>
+-->
+
+Template:
+<!-- <!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>
+      5. Images & Whitespace
+    </title>
+  </head>
+-->
+  <body>
+    <center>
+      <div class="title">
+        Images and Whitespace
+      </div>
+    </center>
+  <br>
+    <center>
+      <div class="subtitle">
+        |- Elements, Markup, and Tags -|
+      </div>
+    </center>
+  <br>
+    <center>
+      <div class="content">
+        <p class="bump"><b>HTML</b> is made up of <u><em>Elements</em></u>.
+        </p>
+        <u><b>Elements(*)
+        </b> contain:</u>
+        <ul style="list-style-type:none">
+          <li>Text Content (What you're looking at)</li>
+          <li>Markup(*) (What it looks like)</li>
+          <li>Refs to other docs (e.g. images, videos)</b></li>
+          <li>Links to other pages (Other things to look at)</li>
+          <li><em>HTML Markup.</em></u></li>
+        </ul>
+      </div>
+    </center>
+  <br>
+  <br>
+    <center>
+      <div class="content">
+        <p class="bump"><u><b>HTML Markup(*)</b> consists of:</u>
+        </p
+        <ul style="list-style-type:none">
+          <li>opening tag &lt;tag name&gt; </li>
+          <li>the tag contents</li>
+          <li>closing tag &lt;&#47;tag name&gt;</li>
+        </ul>
+        <br>
+      </div>
+    </center>
+  <br>
+  <br>
+    <center>
+      <div class="content">
+        <p class="bump">
+          <u><b>HTML elements</b> are either <em>1) inline</em> or <em>2) block.</em></u>
+        </p>
+          <b>Block</b>, as the name might suggest, makes an 'invisible box' around whatever is inside the element.
+          <br>This box has dimensions which can be exploited. (There will be more on this later.)
+          <br>An <b>inline</b> element occupies only the space reserved by the tags that define the inline element
+          <br>
+          <br>
+        <p>
+          <a href="http://www.webdesignerdepot.com/2012/09/when-pages-are-not-paper-the-designers-guide-to-layout-code/">Here's a site</a> with a handy diagram that clearly and simply shows the difference between 'Block' and 'Inline'
+        </p>
+          <br>
+      </div>
+    </center>
+    <br>
+    <br>
+    <center>
+      <div class="subtitle">
+        <a href="Index.html#">|- Back to Table of Contents -|</a>
+      </div>
+    </center>
+  </body>
+  </html>

@@ -1,0 +1,102 @@
+ /* This is a CSS comment. Notice that CSS comments are
+enclosed by different characters than HTML comments. */
+
+/* CSS allows you to give your page style (colors, shapes, fonts, etc.)
+You can apply CSS elements to entire HTML classes. Review Lesson 1.3
+if you need a refresher about how to do this.
+
+title border
+border: solid 3px;
+border-radius: 25%;
+border-color: #EDDA74; /* 'wild rice yellow' */
+
+
+.style {
+  	display: flex;
+    display: -webkit-flex;
+  }
+
+  * {  /* Research later: why we get this CSSLint Warning:
+          The universal selector (*) is known to be slow.at line 13 col 3 in Portfolio\Assignment - Stage1\project\style.css */
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+      box-sizing: border-box;
+      /* Research later: why we get this CSSLint Warning:
+      The box-sizing property isn't supported in IE6 and IE7.at line 18 col 7 in Portfolio\Assignment - Stage1\project\style.css */
+  }
+
+  body {
+    width: 100%;
+  	height: 100%;
+    background-color: #000000;
+  }
+
+  .title {
+    background: linear-gradient(#583759, #EDDA74, #000000);
+    text-align: center;
+    color: #583759; /* 'hot purple' */
+    font-family: Arial;
+  }
+
+  .subtitle {
+    background: linear-gradient(#583759, #EDDA74, #000000);
+    text-align: center;
+    color: #583759;
+    font-family: Arial;
+  }
+
+  .mainpage {
+	  border-radius: 20px;
+	  color: white;
+	  padding: 10px;
+    font-family: serif;
+    display: flex;
+  }
+
+  .about {
+    font-family: Arial;
+    color: #EDDA74;
+    border: 5px solid #A999AA;
+    padding-right: 5px;
+    float: left;
+  }
+
+  nav {
+    font-weight: bolder;
+    width: 705px;
+  }
+
+  a:link {
+  color: #6600CC;
+  }
+  a:visited {
+  color: cyan
+  }
+  a:hover {
+  color: #FFFF00;
+  }
+
+  .glossary {
+    font-family: Arial;
+    color: #EDDA74;
+    border: 5px solid #A999AA;
+    padding-left: 5px;
+    float: right;
+  }
+
+  .content {
+    font-size: 100%;
+    font-family: Arial;
+    text-align: center;
+    border: solid 3px;
+    border-radius: 25%;
+    border-color: #583759;
+    max-width: 705px;
+    background-color: #A999AA;
+  }
+
+  .image {
+      max-width:460px;
+  		padding-top: 3%;
+  }
